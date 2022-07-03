@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    color: red;
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+    position: relative;
+}
+.logo{
+    height: 7em;
+    display: inline-block;
+}
+.navlist li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin: .8em;
+    font-size: large;
+    position: relative;
+    padding: .2em;
+    transform: translate(2em,-4em);
+}
+.navlist li:hover{
+    transform: translate(2em,-4.2em);
+    cursor: pointer;
+    text-shadow: black;
+    box-shadow: 0 0.5em 0.5em -.2em red;
+}
+header input{
+    background-color: black;
+    border-color: red;
+    border-radius: 2em;
+    color: red;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    transform: translate(43em,-6em);
+}
+::placeholder
+{
+    color: red;
+}
+.form{
+    background-image:url(kindpng_2478728.png);
+    position: relative;
+    background: image width 100%;
+    height: 50em;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+main input{
+background-color: transparent;
+border-color: red;
+border-radius: 2em;
+color: red;
+outline: none;
+position: relative;
+display: inline-block;
+margin-top: 1em;
+align-items:inherit;
+}
+form{
+    transform: translatex(68em);
+    border: solid yellow .2em;
+    display: inline-block;
+    padding: 2em;
+}
+button{
+    position: relative;
+    transform: translate(7em);
+    top:1em;
+    background-color: black;
+    color: red;
+    border-color: red;
+    border-radius: 0.5em;
+}
+button:hover{
+    transform: translate(7em,-.2em);
+    cursor: pointer;
+    text-shadow: black;
+    box-shadow: 0 0.5em 0.5em -.2em red;
+}
+footer ul,li{
+    list-style: none;;
+    display: inline-block;
+    margin: 1em;
+}
+footer li:hover{
+    transform: translateY(-.2em);
+    cursor: pointer;
+    text-shadow: black;
+    box-shadow: 0 0.5em 0.5em -.2em red;
+}
+footer ul{
+    margin-left: 0;
+}
+.divide{
+    color: yellow;
+    background-color: yellow;
+}
+.para{
+    background-image: url(background2.png);
+    width: 100%;
+    height:50em;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+.para p{
+    width:25em;
+    height:auto;
+    text-align: center;
+    border: solid yellow .2em;
+    transform: translate(45em,10em);
+    font-size: larger;
+    font-family: comic sans ms;
+}
+h1 ,h2{
+    text-align: center;
+    font-size: 5em;
+    font-family: comic sans ms;
+}
